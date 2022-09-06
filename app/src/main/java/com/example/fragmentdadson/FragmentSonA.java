@@ -11,7 +11,7 @@ import android.widget.EditText;
 
 import androidx.annotation.Nullable;
 
-public class FragmentSon extends Fragment {
+public class FragmentSonA extends Fragment {
 
     private Button btnSend;
     private EditText etFirstNumber, etSecondNumber;
@@ -20,7 +20,7 @@ public class FragmentSon extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_son, container,false);
+        View view = inflater.inflate(R.layout.fragment_son_a, container,false);
 
         etFirstNumber = (EditText) view.findViewById(R.id.etFirstNumber);
         etSecondNumber = (EditText) view.findViewById(R.id.etSecondNumber);
